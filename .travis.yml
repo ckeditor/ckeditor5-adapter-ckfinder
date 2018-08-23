@@ -15,15 +15,8 @@ cache:
 before_install:
 - export DISPLAY=:99.0
 - sh -e /etc/init.d/xvfb start
-- npm config set spin false
 - npm config set package-lock false
-- npm i -g npm@^5.7.1
 install:
-#- npm install
-#- git clone https://github.com/ckeditor/ckeditor5-dev.git
-#- cd ckeditor5-dev && git checkout ci/node-upgrade && git log -1 && cd ../
-#- cd ckeditor5-dev/packages/ckeditor5-dev-tests && npm link && cd ../../../
-#- npm link @ckeditor/ckeditor5-dev-tests
 - npm install @ckeditor/ckeditor5-dev-tests
 - ckeditor5-dev-tests-install-dependencies
 script:
