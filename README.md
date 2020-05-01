@@ -1,6 +1,10 @@
 CKFinder adapter for CKEditor 5
 ========================================
 
+<h3 align=center>⚠⚠ This repository was moved ⚠⚠</h3>
+
+<p align=center>The package was moved to the <a href="https://github.com/ckeditor/ckeditor5/tree/master/packages">main repository</a>.</p>
+
 [![npm version](https://badge.fury.io/js/%40ckeditor%2Fckeditor5-adapter-ckfinder.svg)](https://www.npmjs.com/package/@ckeditor/ckeditor5-adapter-ckfinder)
 [![Dependency Status](https://david-dm.org/ckeditor/ckeditor5-adapter-ckfinder/status.svg)](https://david-dm.org/ckeditor/ckeditor5-adapter-ckfinder)
 [![devDependency Status](https://david-dm.org/ckeditor/ckeditor5-adapter-ckfinder/dev-status.svg)](https://david-dm.org/ckeditor/ckeditor5-adapter-ckfinder?type=dev)
